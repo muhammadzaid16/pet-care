@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&family=Poppins:wght@100;200;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Pet Animal</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="nav__contents">
+        <div class="nav__contents__left-menu">
+          <div class="logo">
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+          <i class="fa-solid fa-bars" id="humberger-btn"></i>
+          <div class="menu">
+            <a href="#">Rescue сenter</a>
+            <a href="#">Apply to adopt</a>
+            <a href="#">Volunteer</a>
+            <a href="#">Ways to give</a>
+            <a href="#">Events</a>
+            <a href="#" class="contact-number-mobile">
+              <i class="fa-solid fa-phone"></i>
+              631-249-7325
+            </a>
+          </div>
+        </div>
+        <div class="nav__contents__right-menu">
+          <a href="#" class="contact-number-desktop">
+            <i class="fa-solid fa-phone"></i>
+            631-249-7325
+          </a>
+          <a href="#" class="btn btn-pink">
+            <i class="fa-solid fa-heart"></i>
+            Donate
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-screen">
+      <div class="main-screen__contents">
+        <div class="main-screen__contents__text">
+          <div class="paragraph-text">
+            <h1>Forever Homes Shelter</h1>
+            <p>
+              Our mission is to rescue and provide rehabilitation to dogs and
+              cats that are critically injured or neglected. We have already
+              saved the lives of 10,000 animals. We are not just a rescue, we
+              are a refuge.
+            </p>
+          </div>
+          <div class="cta-btn">
+            <h3>Your Gift Helps Save Lives</h3>
+            <div class="button-group">
+              <a href="#" class="btn btn-pink">
+                <i class="fa-solid fa-heart"></i>
+                Donate
+              </a>
+              <a href="#" class="btn btn-white">
+                <img src="./img/dog.png" alt="dog-icon" />
+                Apply to Adopt
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-screen__contents__image">
+          <img src="./img/cat-illustration.png" alt="cat-illustration" />
+        </div>
+      </div>
+    </div>
+
+    <div class="stats__block">
+      <div class="stats__block__contents">
+        <div class="text-information">
+          <h2><span>With your help, we</span> accomplished these goals</h2>
+          <div class="stats">
+            <div>
+              <h4>1400</h4>
+              <p>Animals Rescued</p>
+            </div>
+            <div>
+              <h4>$1.4 Million</h4>
+              <p>Raised</p>
+            </div>
+            <div>
+              <h4>940</h4>
+              <p>Tails Found a Home</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div class="left-arrow">
+            <span id="left-arrow-btn"><i class="fa-solid fa-arrow-left"></i></span>
+          </div>
+          <div class="carousel">
+            <div class="carousel-slide">
+              <div class="carousel-image image-1"></div>
+              <div class="carousel-image image-3 active-img"></div>
+              <div class="carousel-image image-2"></div>
+              <div class="carousel-image image-4"></div>
+            </div>
+            <div class="carousel-slide">
+              <div class="carousel-image image-2 active-img"></div>
+              <div class="carousel-image image-4"></div>
+              <div class="carousel-image image-1"></div>
+              <div class="carousel-image image-3"></div>
+            </div>
+            <div class="carousel-slide">
+              <div class="carousel-image image-3"></div>
+              <div class="carousel-image image-4 active-img"></div>
+              <div class="carousel-image image-1"></div>
+              <div class="carousel-image image-2"></div>
+            </div>
+            <div class="carousel-slide">
+              <div class="carousel-image image-4"></div>
+              <div class="carousel-image image-3"></div>
+              <div class="carousel-image image-1 active-img"></div>
+              <div class="carousel-image image-2"></div>
+            </div>
+          </div>
+          <div class="right-arrow">
+            <span id="right-arrow-btn"><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="donation__block">
+      <div class="donation__block__contents">
+        <h2>With your donations we provide</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="card-header">
+              <h4>Shelter</h4>
+              <img src="./img/home-icon.png" alt="home-icon" />
+            </div>
+            <div class="card-body">
+              <p>
+                We provide shelter for many of our cats and dogs. In addition
+                to a roof over their heads, we pay for heat, food, water, and
+                electricity, and general maintenance.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h4>Vetting</h4>
+              <img src="./img/Icon.png" alt="home-icon" />
+            </div>
+            <div class="card-body">
+              <p>
+                We provide shelter for many of our cats and dogs. In addition
+                to a roof over their heads, we pay for heat, food, water, and
+                electricity, and general maintenance.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h4>Facilities</h4>
+              <img src="./img/Icon (2).png" alt="home-icon" />
+            </div>
+            <div class="card-body">
+              <p>
+                We provide shelter for many of our cats and dogs. In addition
+                to a roof over their heads, we pay for heat, food, water, and
+                electricity, and general maintenance.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h4>Transport</h4>
+              <img src="./img/Icon (3).png" alt="home-icon" />
+            </div>
+            <div class="card-body">
+              <p>
+                We provide shelter for many of our cats and dogs. In addition
+                to a roof over their heads, we pay for heat, food, water, and
+                electricity, and general maintenance.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h4>Fosters</h4>
+              <img src="./img/Icon (4).png" alt="home-icon" />
+            </div>
+            <div class="card-body">
+              <p>
+                We provide shelter for many of our cats and dogs. In addition
+                to a roof over their heads, we pay for heat, food, water, and
+                electricity, and general maintenance.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h4>Food</h4>
+              <img src="./img/Icon (5).png" alt="home-icon" />
+            </div>
+            <div class="card-body">
+              <p>
+                We provide shelter for many of our cats and dogs. In addition
+                to a roof over their heads, we pay for heat, food, water, and
+                electricity, and general maintenance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="adopt-info__block">
+      <div class="adopt-info__block__contents">
+        <h2>Adoption information</h2>
+        <div class="contents__text">
+          <div class="image">
+            <img src="./img/Image.png" alt="dog-image" />
+          </div>
+          <div class="text">
+            <h4>Applicants must:</h4>
+            <ul>
+              <li>Live within a 90 mile radius of our shelter</li>
+              <li>
+                Accept the financial responsibility of vet care and pet care
+              </li>
+              <li>
+                Donate $400 to adopt their dog/puppy; $125 for a cat; $150 for
+                a kitten
+              </li>
+              <li>
+                Be over 23 years of age to adopt a dog and 21 years of age to
+                adopt a cat
+              </li>
+              <li>Be ready to adopt within 7-10 days</li>
+            </ul>
+            <a href="#" class="btn btn-black">Apply to Adopt</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="difference__block">
+      <div class="difference__block__contents">
+        <div class="title">
+          <img src="./img/Heart_Drawing_Left.png" alt="heart-image" class="left-image" />
+          <h2><span>You can make </span>a difference</h2>
+          <img src="./img/Heart_Drawing_Right.png" alt="heart-image" class="right-image" />
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card-header">
+              <h4>Adopt or Foster</h4>
+            </div>
+            <div class="card-body">
+              <p>Provide a forever or temporary home to a homeless animal.</p>
+              <a href="#" class="fullWidth-btn btn-green">View Adoptables</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h4>Volunteer</h4>
+            </div>
+            <div class="card-body">
+              <p>
+                We are always in need of passionate and friendly volunteers.
+              </p>
+              <a href="#" class="fullWidth-btn btn-yellow">Get Involved</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h4>Donate Monthly</h4>
+            </div>
+            <div class="card-body">
+              <p>
+                Regular donations is a reliable stream of funds to help
+                sustain.
+              </p>
+              <a href="#" class="fullWidth-btn btn-pink">Give Monthly</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h4>Start a Fundraiser</h4>
+            </div>
+            <div class="card-body">
+              <p>
+                Start a fundraiser to raise funds and help us continue our
+                mission.
+              </p>
+              <a href="#" class="fullWidth-btn btn-blue">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="adopt__block">
+        <div class="cat-image">
+          <img src="./img/Cat-Img.png" alt="" />
+        </div>
+        <div class="text">
+          <h2>Find your <span>best friend</span> today!</h2>
+          <div class="cta-text">
+            <h5>Browse our adorable adoptables</h5>
+            <div class="btns">
+              <a href="#" class="btn btn-yellow">View Adoptables</a>
+              <a href="#" class="btn btn-black">Apply to Adopt</a>
+            </div>
+          </div>
+        </div>
+        <div class="dog-image">
+          <img src="./img/Dog_Img.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="subscription__block">
+      <div class="subscription__block__contents">
+        <div class="header">
+          <h2>Subscribe to our newsletter</h2>
+          <p>
+            for updates on shelter events, fundraising parties, and
+            heartwarming stories of animals finding their forever homes.
+          </p>
+        </div>
+        <div class="form">
+          <div class="form-group">
+            <input type="text" placeholder="Enter your email" />
+            <a href="#" class="btn btn-white">Subscribe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer__contents">
+        <div class="links">
+          <div class="logo-container">
+            <img src="./img/logo.png" alt="logo" />
+            <h4>Forever Home<i class="fa-solid fa-heart"></i></h4>
+            <h5>Helps Save Lives</h5>
+          </div>
+          <div>
+            <a href="">Adopt a Pet</a>
+            <a href="">Adoptable Dogs</a>
+            <a href="">Adoptable Cats</a>
+            <a href="">Become a Foster</a>
+            <a href="">Rescue Center</a>
+            <a href="">Get Involved</a>
+          </div>
+          <div>
+            <a href="">Ways to Donate</a>
+            <a href="">Upcoming Events</a>
+            <a href="">Outreach Programs</a>
+            <a href="">Who We Are</a>
+            <a href="">Contact Us</a>
+            <a href="">Shop With Purpose</a>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="">Middleton, 2452 Wilson</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <a href="">631-249-7325</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="">pet_home@gmail.com</a>
+              </li>
+              <li class="social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <h4>​We are not just a rescue, <span>we are a refuge</span></h4>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
